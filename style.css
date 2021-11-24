@@ -1,0 +1,203 @@
+body{
+   font-family: 'Roboto', sans-serif;
+   font-size: 1em;
+   margin: 2% 5%;
+   margin-top: 1%;
+}
+
+li {
+   list-style-type: none; 
+   
+  }
+ul {
+   margin-left: 0;
+   padding-left: 0; 
+   margin-top: 0%;
+}
+h1 {
+   font-family: 'Roboto Slab', serif;
+   font-weight: 500;
+   text-transform: uppercase;
+}
+h2 {
+   font-family: 'Roboto Slab', serif;
+   font-weight: 300; 
+
+}
+.menu {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+   padding: 0% 10%;
+
+}
+.menu li {
+
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   left: 0; right: 0; 
+    margin: 10px auto 0;
+   font-size: 18px;         
+  
+} 
+
+.wrapper {
+   display: flex;
+
+   align-items: center;
+   justify-content: center;
+
+   
+
+}
+
+figure {
+float:left;
+margin-right: 10%;
+margin-left: -10% ;
+
+   
+}
+.name { 
+   letter-spacing: 0.3em;
+   float:right;
+   
+   font-size: 1em;
+
+  
+   
+}
+  
+
+.contacts  {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding: 2%;
+  
+
+   border-top: 1px solid gray;
+   border-bottom: 1px solid gray;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+   font-size: 1.2em;
+   color: grey;
+   background-color: hotpink;
+   
+}
+.contacts li a {
+   
+text-decoration: none;
+color: gray;
+}
+
+.part1 {
+   display: flex;
+   align-items: flex-start;
+   border-bottom: 1px solid gray; 
+   
+ 
+}
+.summary{
+   background-color: indianred;
+   order: 1;
+   width: 60%;
+   padding: 0% 5% 0% 5%; 
+  
+
+}
+
+.skills {
+  
+  
+   background-color: khaki;
+   width: 40%;
+   padding: 0% 5% 0% 5%; 
+  
+  
+}
+.text-skills{
+display: block;
+float: right;
+ line-height: 3.8em;
+ background-color: red;
+ margin-right: 30%;
+}
+ 
+.icons-skills li img { background-color: green;
+   
+   
+  
+  
+}
+
+
+.part2 {
+   display: flex;
+   align-items: flex-start;
+   border-bottom: 1px solid gray;  
+   
+}
+.experience {
+   background-color: khaki;
+   width: 40%;
+   padding: 0% 5% 0% 5%; 
+
+}
+.education {
+   background-color: indianred;
+   order: 1;
+   width: 60%;
+   padding: 0% 5% 0% 5%; 
+}
+.education li {
+   list-style-type: disc;
+}
+.part3 {
+   display: flex;
+   align-items: flex-start;
+   border-bottom: 1px solid gray; 
+}
+.languages {
+   background-color: khaki;
+   width: 40%;
+   padding: 0% 5% 0% 5%; 
+}
+.code {
+   background-color: indianred;
+   order: 1;
+   width: 60%;
+   padding: 0% 5% 0% 5%; 
+   
+}
+ code pre {
+   background-color: gray;
+   margin:
+   padding: 5%;
+}
+
+.text-languages{
+   display: block;
+float: right;
+ line-height: 3.8em;
+ background-color: red;
+ margin-right: 20%;
+}
+
+.footer  {
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 5% 10% 0% 10%;
+
+}
+footer {
+   text-align: center;
+   font-size: 14px; 
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+
+}
+       
+
