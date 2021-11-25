@@ -38,7 +38,7 @@ h2 {
    font-weight: 700;
    left: 0; right: 0; 
     margin: 10px auto 0;
-   font-size: 18px;         
+    font-size: 1.1em;       
   
 } 
 
@@ -83,7 +83,7 @@ margin-left: -10% ;
    font-weight: 300;
    font-size: 1.2em;
    color: grey;
-   background-color: hotpink;
+   
    
 }
 .contacts li a {
@@ -100,20 +100,20 @@ color: gray;
  
 }
 .summary{
-   background-color: indianred;
+
    order: 1;
    width: 60%;
    padding: 0% 5% 0% 5%; 
+   font-size: 1.1em;
   
 
 }
 
 .skills {
-  
-  
-   background-color: khaki;
    width: 40%;
    padding: 0% 5% 0% 5%; 
+   font-size: 1.1em;
+   
   
   
 }
@@ -121,11 +121,11 @@ color: gray;
 display: block;
 float: right;
  line-height: 3.8em;
- background-color: red;
+
  margin-right: 30%;
 }
  
-.icons-skills li img { background-color: green;
+.icons-skills li img { background-color: none;
    
    
   
@@ -137,16 +137,17 @@ float: right;
    display: flex;
    align-items: flex-start;
    border-bottom: 1px solid gray;  
+   font-size: 1.1em;
    
 }
 .experience {
-   background-color: khaki;
+  
    width: 40%;
    padding: 0% 5% 0% 5%; 
 
 }
 .education {
-   background-color: indianred;
+ 
    order: 1;
    width: 60%;
    padding: 0% 5% 0% 5%; 
@@ -158,30 +159,34 @@ float: right;
    display: flex;
    align-items: flex-start;
    border-bottom: 1px solid gray; 
+   font-size: 1.1em;
 }
 .languages {
-   background-color: khaki;
+   
+
    width: 40%;
    padding: 0% 5% 0% 5%; 
 }
+
+
 .code {
-   background-color: indianred;
+  
    order: 1;
    width: 60%;
    padding: 0% 5% 0% 5%; 
    
 }
  code pre {
-   background-color: gray;
-   margin:
-   padding: 5%;
+   background-color:#D3D3D3;
+ 
+   padding: 7%;
 }
 
 .text-languages{
    display: block;
 float: right;
  line-height: 3.8em;
- background-color: red;
+
  margin-right: 20%;
 }
 
@@ -189,7 +194,7 @@ float: right;
 display: flex;
 align-items: center;
 justify-content: space-between;
-margin: 5% 10% 0% 10%;
+margin: 3% 10% 0% 10%;
 
 }
 footer {
