@@ -1,208 +1,137 @@
-body{
-   font-family: 'Roboto', sans-serif;
-   font-size: 1em;
-   margin: 2% 5%;
-   margin-top: 1%;
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  margin: 2% 7%;
+  background-color: #e6e6fa;
 }
 
 li {
-   list-style-type: none; 
-   
-  }
+  list-style-type: none;
+}
 ul {
-   margin-left: 0;
-   padding-left: 0; 
-   margin-top: 0%;
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: 0%;
 }
 h1 {
-   font-family: 'Roboto Slab', serif;
-   font-weight: 500;
-   text-transform: uppercase;
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 h2 {
-   font-family: 'Roboto Slab', serif;
-   font-weight: 300; 
-
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
 }
-.menu {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   
-   padding: 0% 10%;
-
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0% 10%;
+  font-weight: 700;
+  font-size: 1.2em;
 }
-.menu li {
-
-   font-family: 'Roboto', sans-serif;
-   font-weight: 700;
-   left: 0; right: 0; 
-    margin: 10px auto 0;
-    font-size: 1.1em;       
-  
-} 
-
-.wrapper {
-   display: flex;
-
-   align-items: center;
-   justify-content: center;
-
-   
-
+nav li a {
+  text-decoration: none;
+  color: black;
 }
 
-figure {
-float:left;
-margin-right: 10%;
-margin-left: -10% ;
-
-   
-}
-.name { 
-   letter-spacing: 0.3em;
-   float:right;
-   
-   font-size: 1em;
-
-  
-   
-}
-  
-
-.contacts  {
-   display: flex;
-   align-items: center;
-   justify-content: space-around;
-   padding: 2%;
-  
-
-   border-top: 1px solid gray;
-   border-bottom: 1px solid gray;
-   font-family: 'Roboto', sans-serif;
-   font-weight: 300;
-   font-size: 1.2em;
-   color: grey;
-   
-   
-}
-.contacts li a {
-   
-text-decoration: none;
-color: gray;
+nav li a:hover {
+  color: gray;
 }
 
-.part1 {
-   display: flex;
-   align-items: flex-start;
-   border-bottom: 1px solid gray; 
-   
- 
-}
-.summary{
-
-   order: 1;
-   width: 60%;
-   padding: 0% 5% 0% 5%; 
-   font-size: 1.1em;
-  
-
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 5%;
+  padding-right: 10%;
+  letter-spacing: 0.3em;
 }
 
+.contact-info ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2%;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  font-weight: 300;
+  font-size: 1.2em;
+  color: grey;
+  margin-bottom: 0%;
+}
+.contact-info li a {
+  text-decoration: none;
+  color: gray;
+}
+
+.main-info {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid gray;
+  font-size: 1.1em;
+}
+
+.summary {
+  order: 1;
+  width: 60%;
+  padding: 0% 5%;
+}
 .skills {
-   width: 40%;
-   padding: 0% 5% 0% 5%; 
-   font-size: 1.1em;
-   
-  
-  
+  width: 40%;
+  padding: 0% 5%;
 }
-.text-skills{
-display: block;
-float: right;
- line-height: 3.8em;
-
- margin-right: 30%;
-}
- 
-.icons-skills li img { background-color: none;
-   
-   
-  
-  
+.skills li img {
+  vertical-align: middle;
+  margin-right: 5%;
+  margin-bottom: 3%;
 }
 
-
-.part2 {
-   display: flex;
-   align-items: flex-start;
-   border-bottom: 1px solid gray;  
-   font-size: 1.1em;
-   
-}
 .experience {
-  
-   width: 40%;
-   padding: 0% 5% 0% 5%; 
-
+  width: 40%;
+  padding: 0% 5%;
 }
 .education {
- 
-   order: 1;
-   width: 60%;
-   padding: 0% 5% 0% 5%; 
+  order: 1;
+  width: 60%;
+  padding: 0% 5%;
 }
 .education li {
-   list-style-type: disc;
-}
-.part3 {
-   display: flex;
-   align-items: flex-start;
-   border-bottom: 1px solid gray; 
-   font-size: 1.1em;
+  list-style-type: disc;
 }
 .languages {
-   
-
-   width: 40%;
-   padding: 0% 5% 0% 5%; 
+  width: 40%;
+  padding: 0% 5%;
+  white-space: nowrap;
 }
 
-
+.languages li img {
+  vertical-align: middle;
+  margin-right: 5%;
+  margin-bottom: 3%;
+}
 .code {
-  
-   order: 1;
-   width: 60%;
-   padding: 0% 5% 0% 5%; 
-   
+  order: 1;
+  width: 60%;
 }
- code pre {
-   background-color:#D3D3D3;
- 
-   padding: 7%;
+code pre {
+  background-color: #d3d3d3;
+  padding: 5% 3%;
+  font-size: 0.8em;
 }
 
-.text-languages{
-   display: block;
-float: right;
- line-height: 3.8em;
-
- margin-right: 20%;
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0% 10%;
+  text-align: center;
+  margin-top: 2%;
 }
 
-.footer  {
-display: flex;
-align-items: center;
-justify-content: space-between;
-margin: 3% 10% 0% 10%;
-
+footer p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: gray;
 }
-footer {
-   text-align: center;
-   font-size: 14px; 
-font-family: 'Roboto', sans-serif;
-font-weight: 700;
-
-}
-       
-
